@@ -1,0 +1,41 @@
+body {
+	color: #ffe81f;
+}
+
+.text-muted {
+    color: #ffe81f!important;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td, 
+.table-bordered > tfoot > tr > td {
+	border: none;
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link {
+	color: #ffe81f;
+    background-color: #ffe81f;
+}
+
+.dropdown-item {
+	color: #ffe81f;
+	&:focus, &:hover {
+		color: #ffe81f;
+		text-decoration: none;
+		background-color: #272b30;
+	}
+}
+
+.page-item.active .page-link {
+    color: #ffe81f;
+    background-color: #ffe81f;
+	border-color: #ffe81f;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #ffe81f;
+}
